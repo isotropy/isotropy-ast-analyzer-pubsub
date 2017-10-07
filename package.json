@@ -1,6 +1,6 @@
 {
   "name": "isotropy-ast-analyzer-pubsub",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Pub Sub Analyzer for the Isotropy Project",
   "author": "Isotropy Team<isotropy@agilehead.com>",
   "contributors": [
@@ -12,8 +12,7 @@
     "test": "mocha dist/test/test.js",
     "debug": "mocha dist/test/test.js --inspect-brk"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.22.1",
     "babel-plugin-transform-async-to-generator": "^6.22.0",
