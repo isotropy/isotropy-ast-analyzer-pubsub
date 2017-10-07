@@ -1,0 +1,30 @@
+{
+  "name": "isotropy-ast-analyzer-pubsub",
+  "version": "0.0.1",
+  "description": "Pub Sub Analyzer for the Isotropy Project",
+  "author": "Isotropy Team<isotropy@agilehead.com>",
+  "contributors": [
+    "Arivanandan<uarivanandan@gmail.com>",
+    "Jeswin Kumar<jeswinpk@agilehead.com>"
+  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha dist/test/test.js",
+    "debug": "mocha dist/test/test.js --inspect-brk"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-plugin-transform-async-to-generator": "^6.22.0",
+    "babel-preset-es2016": "^6.22.0",
+    "babel-preset-es2017": "^6.22.0",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-modern-browsers": "^7.0.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "mocha": "*",
+    "should": "*",
+    "source-map-support": "^0.4.8"
+  },
+  "license": "MIT"
+}
