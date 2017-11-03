@@ -1,18 +1,25 @@
 {
-  "name": "isotropy-ast-analyzer-pubsub",
-  "version": "0.0.2",
-  "description": "Pub Sub Analyzer for the Isotropy Project",
+  "name": "isotropy-ast-analyzer-filesystem",
+  "version": "0.0.8",
   "author": "Isotropy Team<isotropy@agilehead.com>",
   "contributors": [
     "Arivanandan<uarivanandan@gmail.com>",
     "Jeswin Kumar<jeswinpk@agilehead.com>"
   ],
-  "main": "dist/index.js",
   "scripts": {
+    "build": "./build.sh",
     "test": "mocha dist/test/test.js",
-    "debug": "mocha dist/test/test.js --inspect-brk"
+    "debug": "mocha --inspect-brk dist/test/test.js"
   },
-  "dependencies": {},
+  "main": "dist/index.js",
+  "dependencies": {
+    "chimpanzee": "^0.0.65",
+    "isotropy-analyzer-errors": "^0.0.7",
+    "isotropy-analyzer-utils": "^0.0.14",
+    "isotropy-plugin-dev-utils": "^0.0.6",
+    "lazily": "^0.0.17",
+    "ramda": "^0.23.0"
+  },
   "devDependencies": {
     "babel-core": "^6.22.1",
     "babel-plugin-transform-async-to-generator": "^6.22.0",
